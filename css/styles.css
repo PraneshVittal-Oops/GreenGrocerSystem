@@ -1,0 +1,179 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:;
+     display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+}
+
+content {
+      flex: 1;
+    }
+    .footer {
+      background-color: #f8f9fa;
+      padding: 1rem;
+    }
+/* Navbar styling */
+.navbar {
+    background-color: #4CAF50; 
+    padding: 10px 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    color: ;
+    font-size: 1.5em;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Space between nav items */
+}
+
+.nav-item {
+    display: inline;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between icon and text */
+}
+
+.nav-link:hover {
+    color: #ddd;
+}
+
+.icon {
+    font-size: 1.5em;
+}
+ .navbar.bg-light {
+background-color: #2ecc71 !important; /* Emerald Green */
+    .footer {
+    position: fixed; /* Fix the footer at the bottom of the page */
+    bottom: 0;       /* Ensure it stays at the bottom */
+    left: 0;         /* Align to the left */
+    width: 100%;     /* Take up full width */
+    background-color: #f8f9fa; /* Optional: Add a background color to the footer */
+    text-align: center; /* Center the text horizontally */
+    padding: 10px 0;  /* Add some padding */
+  }
+  * Welcome header with animation */
+    .welcome-header {
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: #28a745;
+      text-align: center;
+      animation: pulse 1.5s infinite;
+      margin-top: 20px;
+      font-family: 'Arial', sans-serif;
+    }
+
+    /* Dancing icon animation */
+    .dancing-icon {
+      font-size: 3rem;
+      animation: dance 1s infinite alternate;
+      color: #ff8800;
+      margin-top: 10px;
+    }
+
+    /* Animated pulse effect for the header */
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
+
+    /* Dancing animation for the icon */
+    @keyframes dance {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(10deg); }
+    }
+
+    /* Custom styles for main content */
+    .main-title {
+      color: #343a40;
+      font-size: 2.2rem;
+      font-weight: bold;
+      margin-bottom: 15px;
+      font-family: 'Georgia', serif;
+    }
+
+    .content-text {
+      font-size: 1.1rem;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .highlight {
+      color: #28a745;
+      font-weight: 600;
+    }
+
+    /* Welcome header with animation */
+    .welcome-header {
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: #28a745;
+      text-align: center;
+      animation: pulse 1.5s infinite;
+      margin-top: 20px;
+      font-family: 'Arial', sans-serif;
+    }
+
+    /* Dancing icon animation */
+    .dancing-icon {
+      font-size: 3rem;
+      animation: dance 1s infinite alternate;
+      color: #ff8800;
+      margin-top: 10px;
+    }
+
+    /* Animated pulse effect for the header */
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
+
+    /* Dancing animation for the icon */
+    @keyframes dance {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(10deg); }
+    }
+
+    /* Custom styles for main content */
+    .main-title {
+      color: #343a40;
+      font-size: 2.2rem;
+      font-weight: bold;
+      margin-bottom: 15px;
+      font-family: 'Georgia', serif;
+    }
+
+    .content-text {
+      font-size: 1.1rem;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .highlight {
+      color: #28a745;
+      font-weight: 600;
+    }
